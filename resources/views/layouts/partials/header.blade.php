@@ -4,7 +4,7 @@
             <!-- Logo -->
             <div class="flex-shrink-0">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('images/logo.jpg') }}" alt="Trifecta Professional Services" class="h-12 w-auto">
+                    <img src="{{ asset('images/logo.png') }}" alt="Trifecta Professional Services" class="h-12 w-auto">
                 </a>
             </div>
 
