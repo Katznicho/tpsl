@@ -14,6 +14,20 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                primary: {
+                    DEFAULT: '#1A1F36',  // Navy Blue (primary)
+                    dark: '#0D1B2A',     // Darker variant
+                },
+                action: {
+                    DEFAULT: '#00C896',  // Electric Green (secondary)
+                    light: '#1EFFBC',    // Lighter variant
+                },
+                critical: {
+                    DEFAULT: '#FF3B30',  // Crimson Red (tertiary)
+                    light: '#FF4C61',    // Lighter variant
+                },
+            },
         },
     },
     plugins: [],
